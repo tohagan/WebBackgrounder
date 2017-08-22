@@ -73,17 +73,17 @@
     <Compile Include="WorkItemExtensionsFacts.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\WebBackgrounder.EntityFramework\WebBackgrounder.EntityFramework.csproj">
-      <Project>{06D8DE5D-F101-4CD5-B406-8A211216FCE1}</Project>
+      <Project>{06d8de5d-f101-4cd5-b406-8a211216fce1}</Project>
       <Name>WebBackgrounder.EntityFramework</Name>
     </ProjectReference>
     <ProjectReference Include="..\WebBackgrounder\WebBackgrounder.csproj">
-      <Project>{0AD3BB44-E2FA-4A10-A44F-7CABA7FACF4E}</Project>
+      <Project>{0ad3bb44-e2fa-4a10-a44f-7caba7facf4e}</Project>
       <Name>WebBackgrounder</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" />
